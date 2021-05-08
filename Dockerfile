@@ -7,4 +7,4 @@ WORKDIR /opt/hello
 COPY entrypoint.sh /opt/hello/entrypoint.sh
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
-ENTRYPOINT ["sudo","entrypoint.sh"]
+ENTRYPOINT ["entrypoint.sh"]
